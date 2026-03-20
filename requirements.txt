@@ -1,7 +1,10 @@
-# TikTok Video AI Agent — Python dependencies
+# Python dependencies
 
 # Local Whisper transcription (faster than openai-whisper, runs on CPU)
+whisper
+openai-whisper
 faster-whisper>=1.0.0
+pyaudio
 
 # LLM
 torch
@@ -19,3 +22,4 @@ moviepy>=1.0.3
 # General utilities
 tqdm
 python-dotenv
+numpy
